@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import taskforgeImage from "@/public/taskforge.png"
 import AIResumeBuilderImage from "@/public/AI-Resume.png"
 import ProfileForgeAIImage from "@/public/ProfileForge.png"
-import WanderlustImage from "@/public/Wanderlust.png"
+
 
 const projects = [
   {
@@ -15,7 +15,7 @@ const projects = [
     title: "Wanderlust - Property Listing App",
     description:
       "A full-stack web application to create, manage, and browse property listings. Features user authentication, RESTful APIs with MongoDB, image uploads, interactive Leaflet maps for location visualization, and responsive UI across devices.",
-    image: WanderlustImage,
+    image: null,
     icon: Home,
     tags: ["Node.js", "Express.js", "MongoDB", "EJS", "Leaflet", "Bootstrap"],
     github: "https://github.com/Vanshi-alt/Major-Project",

@@ -4,10 +4,7 @@ import { motion, useInView } from "framer-motion"
 import { useRef, useState } from "react"
 import { Github, ExternalLink, Home, ListTodo, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import taskforgeImage from "@/public/taskforge.png"
-import AIResumeBuilderImage from "@/public/AI-Resume.png"
-import ProfileForgeAIImage from "@/public/ProfileForge.png"
-import WanderlustImage from "@/public/Wanderlust.png"
+import phot
 
 const projects = [
   {
@@ -15,7 +12,7 @@ const projects = [
     title: "Wanderlust - Property Listing App",
     description:
       "A full-stack web application to create, manage, and browse property listings. Features user authentication, RESTful APIs with MongoDB, image uploads, interactive Leaflet maps for location visualization, and responsive UI across devices.",
-    image: WanderlustImage,
+    image: null,
     icon: Home,
     tags: ["Node.js", "Express.js", "MongoDB", "EJS", "Leaflet", "Bootstrap"],
     github: "https://github.com/Vanshi-alt/Major-Project",
@@ -27,7 +24,7 @@ const projects = [
     title: "TaskForge - AI Task Platform",
     description:
       "A full-stack web app for creating and managing asynchronous AI-like tasks with real-time status tracking. Implemented JWT authentication with OTP-based password reset, bcrypt encryption, and Docker containerization with CI/CD pipeline using GitHub Actions.",
-    image: taskforgeImage,
+    image: ,
     icon: ListTodo,
     tags: ["React", "Vite", "Node.js", "MongoDB", "Docker", "GitHub Actions"],
     github: "https://github.com/Vanshi-alt/TaskForge",
@@ -39,7 +36,7 @@ const projects = [
     title: "AI-Resume Builder",
     description:
       "A web application that leverages AI to generate professional resumes based on user input. Users can customize templates, download resumes in PDF format, and share them online. The app uses GROQ API for content generation and features a responsive design.",
-    image: AIResumeBuilderImage,
+    image: null,
     icon: FileText,
     tags: ["React", "Vite", "Node.js", "GROQ API" , "Tailwind CSS" , "MongoDB"],
     github: "https://github.com/Vanshi-alt/AI_Resume_Builder",
@@ -51,7 +48,7 @@ const projects = [
     title: "ProfileForge - AI",
     description:
       "I built ProfileForge-AI, an AI-powered LinkedIn Summary Generator that helps users generate professional LinkedIn profile summaries based on their skills, experience, and background. I chose this idea because while building my own professional online presence, I realized writing a strong LinkedIn summary manually is time-consuming, and I wanted to create a faster free solution for it.",
-    image: ProfileForgeAIImage,
+    image: null,
     icon: FileText,
     tags: ["React", "Vite", "Node.js", "GROQ API", "Tailwind CSS" ],
     github: "https://github.com/Vanshi-alt/ProfileForge-AI",

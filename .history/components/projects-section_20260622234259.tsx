@@ -6,8 +6,6 @@ import { Github, ExternalLink, Home, ListTodo, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import taskforgeImage from "@/public/taskforge.png"
 import AIResumeBuilderImage from "@/public/AI-Resume.png"
-import ProfileForgeAIImage from "@/public/ProfileForge.png"
-import WanderlustImage from "@/public/Wanderlust.png"
 
 const projects = [
   {
@@ -15,7 +13,7 @@ const projects = [
     title: "Wanderlust - Property Listing App",
     description:
       "A full-stack web application to create, manage, and browse property listings. Features user authentication, RESTful APIs with MongoDB, image uploads, interactive Leaflet maps for location visualization, and responsive UI across devices.",
-    image: WanderlustImage,
+    image: null,
     icon: Home,
     tags: ["Node.js", "Express.js", "MongoDB", "EJS", "Leaflet", "Bootstrap"],
     github: "https://github.com/Vanshi-alt/Major-Project",
@@ -51,7 +49,7 @@ const projects = [
     title: "ProfileForge - AI",
     description:
       "I built ProfileForge-AI, an AI-powered LinkedIn Summary Generator that helps users generate professional LinkedIn profile summaries based on their skills, experience, and background. I chose this idea because while building my own professional online presence, I realized writing a strong LinkedIn summary manually is time-consuming, and I wanted to create a faster free solution for it.",
-    image: ProfileForgeAIImage,
+    image: null,
     icon: FileText,
     tags: ["React", "Vite", "Node.js", "GROQ API", "Tailwind CSS" ],
     github: "https://github.com/Vanshi-alt/ProfileForge-AI",
